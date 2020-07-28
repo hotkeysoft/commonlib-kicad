@@ -1,4 +1,4 @@
-(module SW_PUSH-12mm_LED (layer F.Cu) (tedit 5F204FDC)
+(module SW_PUSH-12mm_LED (layer F.Cu) (tedit 5F206CBD)
   (descr "SW PUSH 12mm with LED")
   (tags "tact sw push 12mm led")
   (fp_text reference REF** (at -6 -7) (layer F.SilkS)
@@ -45,7 +45,7 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model ${KIPRJMOD}/DTLib.pretty/SW_PUSH-12mm_LED.stp
+  (model ${KIPRJMOD}/commonlib/DTLib.pretty/SW_PUSH-12mm_LED.stp
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

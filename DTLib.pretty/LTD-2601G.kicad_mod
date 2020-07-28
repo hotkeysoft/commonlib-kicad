@@ -1,4 +1,4 @@
-(module LTD-2601G (layer F.Cu) (tedit 5D35D0A6)
+(module LTD-2601G (layer F.Cu) (tedit 5F206CF4)
   (descr "Two digits 7 segment green")
   (tags "Two digits 7 segment green")
   (fp_text reference REF** (at -0.508 -10.16) (layer F.SilkS)
@@ -34,12 +34,7 @@
   (pad 8 thru_hole circle (at 5.08 -7.62 90) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask))
   (pad 9 thru_hole circle (at 2.54 -7.62 90) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask))
   (pad 10 thru_hole circle (at 0 -7.62 90) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask))
-  (model ${KISYS3DMOD}/Display_7Segment.3dshapes/HDSP-7401.wrl
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
-  (model ${KIPRJMOD}/DTLib.pretty/LTD-2601G.step
+  (model ${KIPRJMOD}/commonlib/DTLib.pretty/LTD-2601G.step
     (offset (xyz 5.08 3.8 5))
     (scale (xyz 1 0.68 0.68))
     (rotate (xyz 0 0 0))
